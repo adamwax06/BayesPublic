@@ -1,0 +1,29 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.11.11
+  hooks:
+    # Run the linter and fail on errors
+    - id: ruff
+      args: [ --fix ]
+    # Run the formatter
+    - id: ruff-format
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+    # Check for syntax errors and undefined names
+    - id: check-ast
+    # Check for files that parse as valid python but have syntax errors
+    - id: check-builtin-literals
+    # Check for debugger imports and py37+ breakpoint() calls
+    - id: debug-statements
+    # Check for files that contain merge conflict strings
+    - id: check-merge-conflict
+    # Check for large files being added
+    - id: check-added-large-files
+      args: ['--maxkb=1000']
+    # Trim trailing whitespace
+    - id: trailing-whitespace
+    # Ensure files end with a newline
+    - id: end-of-file-fixer

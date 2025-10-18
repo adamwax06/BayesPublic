@@ -1,0 +1,53 @@
+# Environment variables (CRITICAL - DO NOT COMMIT)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+*.env
+
+# Secrets and credentials
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# API keys and tokens
+**/api-keys/
+**/tokens/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+server.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+

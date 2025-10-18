@@ -1,0 +1,40 @@
+# Cursor ignore file - prevents indexing of sensitive files
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+**/.env
+**/.env.local
+**/.env.*
+
+# Secrets
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+
+# Build outputs
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+
+# Dependencies lock files (large files)
+package-lock.json
+yarn.lock
+uv.lock
+

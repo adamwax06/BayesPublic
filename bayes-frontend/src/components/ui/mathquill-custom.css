@@ -1,0 +1,21 @@
+.mq-editable-field .mq-empty {
+  background: #f3f4f6 !important; /* subtle gray */
+  border-radius: 4px;
+  border: 1.5px solid #cbd5e1 !important;
+  transition:
+    border 0.2s,
+    background 0.2s;
+}
+.mq-editable-field .mq-empty.mq-flash {
+  border: 2px solid #3b82f6 !important; /* blue border flash */
+  background: #dbeafe !important;
+}
+.mq-editable-field .mq-cursor {
+  border-left: 2px solid #3b82f6 !important;
+  background: #dbeafe !important;
+  border-radius: 2px;
+}
+.mq-editable-field .mq-empty .mq-cursor {
+  background: #dbeafe !important;
+  border-radius: 2px;
+}
