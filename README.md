@@ -110,7 +110,6 @@ BayesPublic/
 
 - [Backend README](./bayes-backend/README.md) - Backend-specific documentation
 - [Frontend README](./bayes-frontend/README.md) - Frontend-specific documentation
-- [SECURITY.md](./SECURITY.md) - Security guidelines and best practices
 
 ## Development
 
